@@ -1,0 +1,41 @@
+craft_narrative_flow:
+  description: >
+    Develop the overall narrative progression, focusing on:
+    - Story pacing and rhythm
+    - Chapter structure and transitions
+    - Character arc integration
+    - Theme development
+    - Narrative voice consistency
+    Create a flowing narrative that maintains reader engagement throughout.
+  expected_output: >
+    A detailed narrative outline with specific story beats, emotional peaks
+    and valleys, and character development moments mapped out.
+  agent: narrative_writer
+
+design_key_scenes:
+  description: >
+    Structure and detail individual scenes, ensuring:
+    - Clear scene goals and conflicts
+    - Effective setting integration
+    - Character interaction dynamics
+    - Emotional resonance
+    - Pacing appropriate to content
+    Build scenes that serve both plot and character development.
+  expected_output: >
+    Fully developed scene outlines with specific notes on structure,
+    pacing, and emotional progression for each major story beat.
+  agent: scene_architect
+
+weave_complete_story:
+  description: >
+    Combine all elements into a cohesive narrative, ensuring:
+    - Smooth transitions between scenes
+    - Consistent emotional progression
+    - Effective buildup to key moments
+    - Satisfying resolution of arcs
+    - Maintenance of tone and style
+    Create a complete, polished story that engages from start to finish.
+  expected_output: >
+    A complete story in markdown format, with all scenes fully written
+    and integrated into a seamless narrative whole.
+  agent: mood_orchestrator

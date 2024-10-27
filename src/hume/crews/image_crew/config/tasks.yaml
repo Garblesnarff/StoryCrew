@@ -1,0 +1,42 @@
+establish_visual_style:
+  description: >
+    Define the overall visual style for the story's illustrations, including:
+    - Core artistic style and influences
+    - Color palette and lighting approach
+    - Texture and detail level preferences
+    - Character design principles
+    - Environmental style guidelines
+    - Mood and atmosphere parameters
+    Create a comprehensive style guide that can be consistently referenced.
+  expected_output: >
+    A detailed visual style guide with specific parameters, reference descriptions,
+    and example prompt elements that define the story's visual identity.
+  agent: style_director
+
+create_scene_prompts:
+  description: >
+    Generate specific image prompts for each story segment, ensuring:
+    - Accurate representation of scene content
+    - Emotional resonance with the narrative
+    - Technical effectiveness for AI generation
+    - Proper emphasis on key story elements
+    - Consistency with established style
+    Craft prompts that reliably produce desired results.
+  expected_output: >
+    A collection of carefully crafted prompts for each story segment,
+    with variations and alternatives for optimal results.
+  agent: prompt_engineer
+
+ensure_visual_consistency:
+  description: >
+    Review and refine all image prompts to maintain consistency in:
+    - Character appearances across scenes
+    - Setting details and environmental elements
+    - Style and artistic approach
+    - Mood and atmosphere
+    - Technical parameters
+    Document all visual elements for future reference.
+  expected_output: >
+    A comprehensive markdown document containing finalized image prompts,
+    consistency notes, and style guidelines for the entire scene.
+  agent: consistency_guardian

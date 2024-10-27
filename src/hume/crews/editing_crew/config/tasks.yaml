@@ -1,0 +1,43 @@
+structural_edit:
+  description: >
+    Perform a comprehensive structural edit of the story, analyzing:
+    - Overall narrative structure and flow
+    - Plot progression and pacing
+    - Character arc development
+    - Scene sequencing and transitions
+    - Narrative tension and resolution
+    Identify areas needing improvement and provide specific recommendations
+    for strengthening the story's foundation.
+  expected_output: >
+    A detailed structural analysis report with specific recommendations for
+    improvements, including suggested reorganization, cuts, or additions
+    needed to strengthen the narrative.
+  agent: content_editor
+
+style_revision:
+  description: >
+    Review and enhance the story's prose style, focusing on:
+    - Language clarity and effectiveness
+    - Tone consistency and appropriateness
+    - Dialogue polish and authenticity
+    - Description vividness and economy
+    - Narrative voice strength
+    Refine the writing while maintaining the author's unique style.
+  expected_output: >
+    A comprehensive style revision document highlighting specific areas
+    for improvement and suggested rewrites for problematic passages.
+  agent: style_editor
+
+final_polish:
+  description: >
+    Perform a final review and polish of the story, checking for:
+    - Character consistency across scenes
+    - Plot point coherence and resolution
+    - Timeline accuracy and logic
+    - Setting and world-building consistency
+    - Detail and fact consistency
+    Document any remaining issues and provide final refinements.
+  expected_output: >
+    A polished version of the story in markdown format, with annotations
+    for any remaining concerns or suggestions for future revisions.
+  agent: continuity_checker

@@ -1,0 +1,43 @@
+develop_character_psychology:
+  description: >
+    Analyze and develop the character's psychological profile including:
+    - Core personality traits and temperament
+    - Key motivations and desires
+    - Internal conflicts and fears
+    - Emotional patterns and triggers
+    - Defense mechanisms and coping strategies
+    Consider how these elements will drive the character's actions and development throughout the story.
+  expected_output: >
+    A detailed psychological profile that outlines the character's inner workings,
+    including specific examples of how their psychology manifests in behavior and decision-making.
+  agent: character_psychologist
+
+create_character_backstory:
+  description: >
+    Using the psychological profile, develop a rich backstory that explains and supports
+    the character's current psychological state. Include:
+    - Significant life events and experiences
+    - Key relationships and their impact
+    - Cultural and environmental influences
+    - Personal victories and failures
+    - Skills and knowledge acquisition
+  expected_output: >
+    A compelling narrative of the character's past that illuminates their present
+    state and provides context for their future development.
+  agent: backstory_writer
+
+compile_character_profile:
+  description: >
+    Review both the psychological profile and backstory to create a comprehensive
+    character profile that includes:
+    - Physical characteristics and appearance
+    - Personality summary and key traits
+    - Core motivations and goals
+    - Significant relationships
+    - Skills and abilities
+    - Character arc potential
+    - Consistency checks and potential plot hooks
+  expected_output: >
+    A complete, well-organized character profile document in markdown format that
+    serves as a definitive reference for the character.
+  agent: character_profiler

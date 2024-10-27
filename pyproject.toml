@@ -1,0 +1,19 @@
+[project]
+name = "hume"
+version = "0.1.0"
+description = "hume using crewAI"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+requires-python = ">=3.10,<=3.13"
+dependencies = [
+    "crewai[tools]>=0.74.2,<1.0.0",
+    "asyncio"
+]
+
+[project.scripts]
+hume = "hume.main:main"
+run_flow = "hume.main:main"
+plot_flow = "hume.main:plot"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

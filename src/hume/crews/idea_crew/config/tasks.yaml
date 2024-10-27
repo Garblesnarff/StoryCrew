@@ -1,0 +1,40 @@
+generate_core_concepts:
+  description: >
+    Generate and develop potential story concepts, considering:
+    - Central themes and messages
+    - Unique hooks and angles
+    - Genre elements and expectations
+    - Target audience appeal
+    - Contemporary relevance
+    Explore multiple possibilities and evaluate their potential for development.
+  expected_output: >
+    A collection of well-developed story concepts, each with identified themes,
+    unique selling points, and potential for development into full narratives.
+  agent: concept_generator
+
+develop_story_world:
+  description: >
+    For the most promising concepts, develop potential story worlds that:
+    - Support and enhance the core themes
+    - Provide interesting constraints and opportunities
+    - Create unique dynamics for character interaction
+    - Offer fresh perspectives on the central conflict
+    - Include rich details and internal consistency
+  expected_output: >
+    Detailed world-building documents for each selected concept, including
+    cultural, social, physical, and historical elements that enhance the story.
+  agent: world_builder
+
+craft_plot_possibilities:
+  description: >
+    Develop potential plot lines for the story concepts and worlds, including:
+    - Major story arcs and plot points
+    - Character development opportunities
+    - Conflict escalation patterns
+    - Subplot possibilities
+    - Resolution options
+    Consider how different plot choices could affect the story's impact.
+  expected_output: >
+    A comprehensive markdown document outlining various plot possibilities
+    for each concept, with analysis of their strengths and potential challenges.
+  agent: plot_weaver

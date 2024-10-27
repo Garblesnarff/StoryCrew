@@ -1,0 +1,41 @@
+create_dialogue_style:
+  description: >
+    Establish the overall dialogue style for the story, considering:
+    - Genre conventions and expectations
+    - Story tone and atmosphere
+    - Setting and time period influence
+    - Cultural and social contexts
+    - Pacing and rhythm requirements
+    Provide specific guidelines for dialogue construction that align with these elements.
+  expected_output: >
+    A comprehensive style guide for dialogue that includes examples and specific
+    techniques for maintaining consistency while allowing for character individuality.
+  agent: dialogue_stylist
+
+develop_character_voices:
+  description: >
+    Create distinct voices for each character based on their profiles, including:
+    - Vocabulary choices and education level
+    - Speech patterns and sentence structure
+    - Verbal tics and favorite expressions
+    - Cultural influences and background
+    - Emotional expression styles
+    Consider how these elements change in different situations and emotional states.
+  expected_output: >
+    A detailed voice guide for each character with examples of their typical
+    dialogue patterns and how they vary in different contexts.
+  agent: voice_curator
+
+refine_dialogue:
+  description: >
+    Review and enhance dialogue exchanges to ensure they:
+    - Advance the plot or reveal character
+    - Maintain consistent character voices
+    - Balance subtext and explicit meaning
+    - Create natural rhythm and flow
+    - Serve the story's emotional arc
+    Polish exchanges for maximum impact while preserving authenticity.
+  expected_output: >
+    Polished dialogue sequences in markdown format, with annotations for
+    tone, subtext, and character development opportunities.
+  agent: dialogue_editor
